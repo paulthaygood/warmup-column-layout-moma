@@ -1,0 +1,55 @@
+*{
+   box-sizing: border-box;
+}
+
+#app-container{
+  background-color: lightgray;
+
+}
+
+.boxes{
+  background-color: white;
+  width: 33.33333%;
+  display: flex;
+  flex-wrap:wrap;
+	width: 768px;
+	margin: 0 auto;
+
+}
+
+.box{
+  border-right: 10px #ddd solid;
+  flex-basis: 33.3333%
+}
+
+.box:last-child{
+  border-right: 0;
+}
+
+.info-column-box{
+  display: flex;
+}
+
+.text{
+  flex-basis: 50%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  flex-basis: 50%;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", "serif";
+}
+
+img{
+  display:block;
+  width: 100%;
+}
+h5{
+  color: lightgray;
+}
+/*General site styles + general classes*/
